@@ -85,20 +85,16 @@ li {
 
 #recipe-article img {
   margin-left: -2rem;
+  margin-top: -2rem;
   width: 100vw;
 }
 
-#description {}
-
 #prep-time {
+  padding-left: 24px;
+  padding-top: 8px;
+  border-radius: 12px;
   background: var(--rose50);
 }
-
-#ingredients {}
-
-#instructions {}
-
-#nutrition {}
 
 #nutrition table {
   width: 100%;
@@ -123,5 +119,36 @@ li {
 }
 
 #nutrition strong {
-  color: var(--brown800)
+  color: var(--brown800);
+}
+
+.attribution{
+  overflow:hidden;
+  height:0;
+  width:0;
+  margin: 0;
+}
+
+ol ::marker{
+  font: 600 16px 'outfit';
+}
+
+@media (min-width: 650px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0;
+    background: var(--stone100);
+  }
+
+  #recipe-article{
+    width: 650px;
+    border-radius: 16px;
+  }
+  #recipe-article img {
+    margin: 0;
+    width: 100%;
+    border-radius: 12px;
+  }
 }
