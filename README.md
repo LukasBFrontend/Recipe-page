@@ -5,7 +5,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -21,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://lukasbfrontend.github.io/Social-links-profile/)
+- Live Site URL: [Add live site URL here](https://lukasbfrontend.github.io/Recipe-page/)
 
 ## My process
 
@@ -33,7 +32,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-Not sure.
+Some ways to style lists.
 
 ## Author
 
